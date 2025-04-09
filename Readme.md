@@ -47,7 +47,7 @@ python generate***.py
 ## References
 
 - Built upon [NEXUS](https://github.com/zju-abclab/NEXUS.git)  secure compression  techniques
-- 
+
 - Incorporates [SEAL](https://github.com/microsoft/SEAL.git)  for CPU acceleration
-- 
+
 - Incorporates [PhantomFHE](https://github.com/encryptorion-lab/phantom-fhe.git)  for GPU acceleration
