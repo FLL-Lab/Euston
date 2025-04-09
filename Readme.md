@@ -1,7 +1,7 @@
 # Euston: Efficient and User-Friendly Secure Transformer Inference
 
 ## Overview
-Euston is an efficient and user-friendly framework for secure Transformer inference, offering dual implementations optimized for CPU and GPU platforms. This repository contains the reference implementation accompanying our paper ["Euston: Efficient and User-Friendly Secure Transformer Inference] (link to be added). Our framework achieves efficient homomorphic evaluation while maintaining user-friendly deployment across heterogeneous computing environments.
+Euston is an efficient and user-friendly framework for secure Transformer inference, offering dual implementations optimized for CPU and GPU platforms. This repository contains the reference implementation accompanying our paper ["Euston: Efficient and User-Friendly Secure Transformer Inference"](d). Our framework achieves efficient homomorphic evaluation while maintaining user-friendly deployment across heterogeneous computing environments.
 
 ## Table of Contents
 - [Key Features](#key-features)
