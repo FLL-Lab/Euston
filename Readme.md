@@ -33,8 +33,8 @@ python generate***.py
 ```
 
 ## Platform-Specific Implementations
-- **CPU Implementation**: See [Euston_CPU/README.md](Euston_CPU/README.md) for Eigen/SEAL dependencies and build instructions
-- **GPU Implementation**: See [Euston_GPU/README.md](Euston_GPU/README.md) for CUDA requirements and compilation guide
+- **CPU Implementation**: See [Euston_CPU/README.md](Euston-CPU/README.md) for Eigen/SEAL dependencies and build instructions
+- **GPU Implementation**: See [Euston_GPU/README.md](Euston-GPU/README.md) for CUDA requirements and compilation guide
 
 ## Directory Structure
 ```
