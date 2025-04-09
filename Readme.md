@@ -39,8 +39,8 @@ python generate***.py
 ## Directory Structure
 ```
 ├── Data/               # Dataset generation scripts
-├── Euston_CPU/         # CPU-optimized implementation
-├── Euston_GPU/         # GPU-accelerated implementation
+├── Euston_CPU/         # CPU-Comparison implementation
+├── Euston_GPU/         # GPU-Comparison implementation
 └── ...
 ```
 
