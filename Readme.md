@@ -15,8 +15,8 @@ Euston is an efficient and user-friendly framework for secure Transformer infere
 ## Key Features
 - Dual-platform support with CPU/GPU optimizations
 - Secure inference through integration with FHE libraries
-- Modular architecture for Transformer components
-- Compatibility with standard neural network formats
+- Efficient and user-friendly matrix multiplications
+- Efficient and user-friendly nonlinear functions
 
 ## Getting Started
 
