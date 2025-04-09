@@ -1,6 +1,52 @@
-# Euston
-Euston is an efficient and user-friendly secure Transformer inference framework.
-We provide two implementions on CPU and GPU platforms respectively.
+# Euston: Efficient and User-Friendly Secure Transformer Inference
 
-要编译运行Euston，我们首先需要执行Data目录下的generate的python文件得到Data。
-随后，对于不同的CPU和GPU版本的实现，可以分别参考对应目录下的Readme进行编译运行。
+## Overview
+Euston is an efficient and user-friendly framework for secure Transformer inference, offering dual implementations optimized for CPU and GPU platforms. This repository contains the reference implementation accompanying our paper ["Euston: Efficient and User-Friendly Secure Transformer Inference] (link to be added). Our framework achieves efficient homomorphic evaluation while maintaining user-friendly deployment across heterogeneous computing environments.
+
+## Table of Contents
+- [Key Features](#key-features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Data Preparation](#data-preparation)
+- [Platform-Specific Implementations](#platform-specific-implementations)
+- [Directory Structure](#directory-structure)
+- [References](#references)
+
+## Key Features
+- Dual-platform support with CPU/GPU optimizations
+- Secure inference through integration with FHE libraries
+- Modular architecture for Transformer components
+- Compatibility with standard neural network formats
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+ for data generation
+- CMake 3.20+
+- Platform-specific dependencies (see subdirectory READMEs)
+
+### Data Preparation
+Generate prerequisite datasets:
+```bash
+cd Data
+python generate***.py
+```
+
+## Platform-Specific Implementations
+- **CPU Implementation**: See [Euston_CPU/README.md](Euston_CPU/README.md) for Eigen/SEAL dependencies and build instructions
+- **GPU Implementation**: See [Euston_GPU/README.md](Euston_GPU/README.md) for CUDA requirements and compilation guide
+
+## Directory Structure
+```
+├── Data/               # Dataset generation scripts
+├── Euston_CPU/         # CPU-optimized implementation
+├── Euston_GPU/         # GPU-accelerated implementation
+└── ...
+```
+
+## References
+- Built upon NEXUS [1] secure compression  techniques
+- Incorporates PhantomFHE [2] for GPU acceleration
+
+[1](https://github.com/zju-abclab/NEXUS.git) NEXUS repository
+[2](https://github.com/encryptorion-lab/phantom-fhe.git) PhantomFHE repository
