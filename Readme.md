@@ -45,8 +45,11 @@ python generate***.py
 ```
 
 ## References
+
 - Built upon NEXUS [1] secure compression  techniques
+  
 - Incorporates PhantomFHE [2] for GPU acceleration
 
-[1](https://github.com/zju-abclab/NEXUS.git) NEXUS repository
-[2](https://github.com/encryptorion-lab/phantom-fhe.git) PhantomFHE repository
+[1 NEXUS repository](https://github.com/zju-abclab/NEXUS.git) 
+
+[2 PhantomFHE repository](https://github.com/encryptorion-lab/phantom-fhe.git) 
