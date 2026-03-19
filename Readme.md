@@ -41,7 +41,7 @@ python generate***.py
 ├── Data/               # Dataset generation scripts
 ├── Euston_CPU/         # CPU-Comparison implementation
 ├── Euston_GPU/         # GPU-Comparison implementation
-└── ...
+└── Readme.md
 ```
 
 ## References
